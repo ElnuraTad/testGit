@@ -38,12 +38,15 @@ public class Main {
         //System.out.println(readFile());//третья часть читать файл
 
 
+        Autobaza autobaza = new Autobaza(1, "Moskva prospect Mira");
+        System.out.println(autobaza);
 
-        Car[] cars1 = gson.fromJson(readFile(),Car[].class);
-        for(Car c:cars1){
-            System.out.println(c.toString());
 
-        }
+//        Car[] cars1 = gson.fromJson(readFile(),Car[].class);
+//        for(Car c:cars1){
+//            System.out.println(c.toString());
+
+        //}
 //
     }
 
